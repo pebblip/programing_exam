@@ -1,6 +1,6 @@
 # 与えられた整数の配列から偶数のみを抽出関数```evensOf```を作成せよ。
 
-## 実行例
+## 実行例 {.unnumbered}
 ```javascript
 let result1 = evensOf([1,2,3,4]);
 let result2 = average([1,3,5,7]);
@@ -12,7 +12,7 @@ console.log(result2); //[]と表示される
 
 # 与えられた整数の配列のすべての要素の合計値を求める関数```total```を作成せよ。
 
-## 実行例
+## 実行例 {.unnumbered}
 ```javascript
 let result1 = total([1,2]);
 let result2 = total([3,5,7]);
@@ -25,7 +25,7 @@ console.log(result3); //0と表示される
 
 # 与えられた整数の配列の全ての要素を２倍にした新しいリストを生成する関数```doubles```を作成せよ。
 
-## 実行例
+## 実行例 {.unnumbered}
 ```javascript
 let result1 = doubles([1,2,3]);
 let result2 = doubles([]);
@@ -36,7 +36,7 @@ console.log(result2); //[]と表示される
 
 # サイズ```n```と要素```e```を受け取り、大きさ```n```の全て要素が```e```の配列を生成する```makeArray```を作成せよ。
 
-## 実行例
+## 実行例 {.unnumbered}
 ```javascript
 let result1 = makeArray(3, “hoge”);
 let result2 = makeArray(0, "hoge");
@@ -49,7 +49,7 @@ console.log(result3); //[100,100]と表示される
 
 # 配列と値を受け取り、配列の中にその値が１つでも含まれる場合は```true```を返す関数```sameOne```を作成せよ。
 
-## 実行例
+## 実行例 {.unnumbered}
 ```javascript
 let result1 = sameOne([1,2,3], 3);
 let result2 = sameOne([1,2,3], 5);
@@ -64,7 +64,7 @@ console.log(result4); //falseと表示される。文字列３と数値３は異
 
 # 配列と値を受け取り、配列のすべての要素がその値と等しい場合に```true```を返す関数```sameAll```を作成せよ。
 
-## 実行例
+## 実行例 {.unnumbered}
 ```javascript
 let result1 = sameAll([1,2,3], 3);
 let result2 = sameAll([3,3,3], 3);
@@ -79,7 +79,7 @@ console.log(result4); //falseと表示される。文字列３と数値３は異
 
 # 配列の配列を受け取り、各要素の配列を連結して新しい配列を返す関数 ```flatten``` を作成せよ。
 
-## 実行例
+## 実行例 {.unnumbered}
 ```javascript
 let result1 = flatten([[1],[2,3],[4,5,6]]);
 let result2 = flatten([["a"],[1,2],["b", "c"]]);
@@ -94,7 +94,7 @@ console.log(result4); //1,2,3と表示される。
 
 # ２つの整数配列を受け取り、対応する要素の和を要素とする新しい配列を返す関数 ```sumArray```を作成せよ。ただし、配列の大きさが異なる場合は、小さい配列の大きさとなること。
 
-## 実行例
+## 実行例 {.unnumbered}
 ```javascript
 let result1 = sumArray([1,2,3], [3,4,5]);
 let result2 = sumArray([],[3,4,5]);
@@ -111,7 +111,7 @@ console.log(result5); //何も表示されない（空配列）
 
 # 整数の配列を受け取り、すべての要素の積を求めるメソッド ```productArray```を作成せよ。
 
-## 実行例
+## 実行例 {.unnumbered}
 ```javascript
 let result1 = productArray([1,2,3]);
 let result2 = productArray([3,4,5]);
@@ -130,7 +130,7 @@ console.log(result4); //何も表示されない（空配列）
 * 整数```n```の階乗とは、```1```から```n```までのすべての積、つまり ```1 * 2 * ... * n``` のことである。
 * ただし、```0```の階乗は```1```とする。
 
-## 実行例
+## 実行例 {.unnumbered}
 ```javascript
 let result1 = factorial(1);
 let result2 = factorial(2);
@@ -145,7 +145,7 @@ console.log(result4); //24と表示される
 
 # 注文金額の配列```orderAmouns```と金額```amount```を受け取り、注文額が金額```amount```以上の平均を求める関数 ```averageAmount``` を作成せよ。
 
-## 実行例
+## 実行例 {.unnumbered}
 ```javascript
 let result1 = averageAmount([3000, 2000, 5000], 3000);
 let result2 = averageAmount([3000, 2000, 5000], 6000);
